@@ -48,7 +48,7 @@ from PIL import Image
 
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
-binary = FirefoxBinary('/usr/bin/firefox')
+binary = FirefoxBinary('/root/firefox')
 driver=webdriver.Firefox(options=firefox,executable_path='./geckodriver',firefox_binary=binary)#FOR LINUX
 import re
 
