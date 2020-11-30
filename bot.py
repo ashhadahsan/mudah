@@ -143,7 +143,7 @@ mydb=DATABASE()
 #chrome_options.add_argument('log-level=3')
 # driver=webdriver.Chrome('./driver/chromedriver.exe',options=chrome_options)
 firefox=Options()
-firefox.headless=True
+firefox.headless=False
 firefox.add_argument('log-level=3')
 
 
